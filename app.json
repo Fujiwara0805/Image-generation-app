@@ -3,6 +3,7 @@
     "name": "AI_Image_Generator_App",
     "slug": "AI_Image_Generator_App",
     "version": "1.0.0",
+    "privacy": "unlisted",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
