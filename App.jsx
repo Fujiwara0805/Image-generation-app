@@ -1,22 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+// import HomeScreen from './src/screens/HomeScreen';
+// import CreateTextScreen from './src/screens/CreateTextScreen';
+import ChatScreen from './src/screens/ChatScreen';
+import AppBar from './src/components/AppBar';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      {/* eslint-disable-next-line */}
-      <StatusBar style="auto" />
+    <View>
+      <AppBar />
+      <ChatScreen />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
